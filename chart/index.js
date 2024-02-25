@@ -20,11 +20,11 @@ ChartJS.register(
 );
 
 export default function RadarChart({
-  chartData1,
-  chartData2,
-  chartData3,
-  chartData4,
-  chartData5,
+  Argentina,
+  Australia,
+  Austria,
+  Bangeladesh,
+  Belgium,
 }) {
   const data = {
     labels: [
@@ -38,8 +38,8 @@ export default function RadarChart({
     datasets: [
       {
         label: "Argentina",
-        data: chartData1
-          ? chartData1
+        data: Argentina
+          ? Argentina
           : Array.from(
               { length: 6 },
               () => Math.floor(Math.random() * 100) + 1
@@ -50,8 +50,8 @@ export default function RadarChart({
       },
       {
         label: "Australia",
-        data: chartData2
-          ? chartData2
+        data: Australia
+          ? Australia
           : Array.from(
               { length: 6 },
               () => Math.floor(Math.random() * 100) + 1
@@ -62,8 +62,8 @@ export default function RadarChart({
       },
       {
         label: "Austria",
-        data: chartData3
-          ? chartData3
+        data: Austria
+          ? Austria
           : Array.from(
               { length: 6 },
               () => Math.floor(Math.random() * 100) + 1
@@ -74,8 +74,8 @@ export default function RadarChart({
       },
       {
         label: "Bangeladesh",
-        data: chartData4
-          ? chartData4
+        data: Bangeladesh
+          ? Bangeladesh
           : Array.from(
               { length: 6 },
               () => Math.floor(Math.random() * 100) + 1
@@ -86,8 +86,8 @@ export default function RadarChart({
       },
       {
         label: "Belgium",
-        data: chartData5
-          ? chartData5
+        data: Belgium
+          ? Belgium
           : Array.from(
               { length: 6 },
               () => Math.floor(Math.random() * 100) + 1

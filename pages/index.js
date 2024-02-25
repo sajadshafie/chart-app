@@ -45,11 +45,11 @@ export default function Home() {
             <p style={{ textAlign: "center" }}>2017</p>
             <RadarChart
             // this is sample for pass data to chart component you most carefull and because  you can pass number beetwen 1 and 100
-            // chartData1={[1, 2, 3, 4, 5]}
-            // chartData2={[1, 2, 3, 4, 5]}
-            // chartData3={[1, 2, 3, 4, 5]}
-            // chartData4={[1, 2, 3, 4, 5]}
-            // chartData5={[1, 2, 3, 4, 5]}
+            // Argentina={[1, 2, 3, 4, 5]}
+            // Australia={[1, 2, 3, 4, 5]}
+            // Austria={[1, 2, 3, 4, 5]}
+            // Bangeladesh={[1, 2, 3, 4, 5]}
+            // Belgium={[1, 2, 3, 4, 5]}
             />
           </div>
         )}
